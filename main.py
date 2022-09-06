@@ -26,7 +26,7 @@ date=now.date()
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog_content!.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog_content_1!.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 ckeditor = CKEditor(app)
 Bootstrap(app)
